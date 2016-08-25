@@ -44,11 +44,17 @@ module.exports.sockets = {
   // -OR-
   //
 
-  // adapter: 'socket.io-redis',
+  //adapter: 'socket.io-redis',
+  
+  adapter: 'redis',
   // host: '127.0.0.1',
-  // port: 6379,
+  host: 'viperfish.redistogo.com',
+  port: 9411,
+  user: 'redistogo',
+  // ttl: <redis session TTL in seconds>,
   // db: 0,
-  // pass: '<redis auth password>',
+  pass: '9359f9dd177948a1154d45bf7204839e',
+  //prefix: 'sess:',
 
 
 
