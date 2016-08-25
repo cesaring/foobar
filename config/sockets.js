@@ -46,7 +46,7 @@ module.exports.sockets = {
 
   //adapter: 'socket.io-redis',
   
-  adapter: 'redis',
+  adapter: 'socket.io-redis',
   // host: '127.0.0.1',
   host: 'viperfish.redistogo.com',
   port: 9411,
